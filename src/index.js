@@ -9,6 +9,7 @@ const AppContainer = styled.div`
   color: #fcf1f1;
   width: 100%;
   font-family: Oswald;
+  font-size: 16px;
 `;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

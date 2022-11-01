@@ -13,3 +13,18 @@ export const homeContent = {
     },
   },
 };
+
+export const announcementsContent = [
+  {
+    title: "dfdfd",
+    text: "sdsds",
+    bannerSrc: `${HomeBackground2}`,
+    bannerAlt: "sdsd",
+  },
+  {
+    title: "dfdfd",
+    text: "sdsds",
+    bannerSrc: `${HomeBackground2}`,
+    bannerAlt: "sdsd",
+  },
+];

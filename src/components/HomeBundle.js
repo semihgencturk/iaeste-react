@@ -49,6 +49,7 @@ const InternalButton = styled.button`
     cursor: pointer;
   }
 `;
+
 const HomeBundleImages = styled.div`
   width: 40%;
   padding-right: 10%;

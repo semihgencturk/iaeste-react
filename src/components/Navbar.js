@@ -24,11 +24,13 @@ const Navbar = () => {
     <>
       <NavbarContainer>
         <NavbarLogo src={test} alt="ss" />
-        <NonCollapsableNavbarItem title="Hakkımızda" linkTo="" />
-        <NonCollapsableNavbarItem title="Yönetim Kurulumuz" linkTo="" />
-        <NonCollapsableNavbarItem title="Duyurular" linkTo="" />
-        <NonCollapsableNavbarItem title="Başvuru" linkTo="" />
-        <NonCollapsableNavbarItem title="İletişim" linkTo="" />
+        <NonCollapsableNavbarItem title="Hakkımızda" linkTo="/Hakkimizda" />
+        <NonCollapsableNavbarItem
+          title="Yönetim Kurulumuz"
+          linkTo="/Yonetim-Kurulumuz"
+        />
+        <NonCollapsableNavbarItem title="Duyurular" linkTo="/Duyurular" />
+        <NonCollapsableNavbarItem title="İletişim" linkTo="/Iletisim" />
         <NonCollapsableNavbarItem title="S.S.S" linkTo="" />
         <NavbarLogo src={test} alt="ss" />
       </NavbarContainer>
