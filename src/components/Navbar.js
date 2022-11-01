@@ -31,7 +31,10 @@ const Navbar = () => {
         />
         <NonCollapsableNavbarItem title="Duyurular" linkTo="/Duyurular" />
         <NonCollapsableNavbarItem title="İletişim" linkTo="/Iletisim" />
-        <NonCollapsableNavbarItem title="S.S.S" linkTo="" />
+        <NonCollapsableNavbarItem
+          title="S.S.S"
+          linkTo="/Sikca-Sorulan-Sorular"
+        />
         <NavbarLogo src={test} alt="ss" />
       </NavbarContainer>
     </>

@@ -7,7 +7,7 @@ const AnnouncementContainer = styled.div`
   display: flex;
   justify-content: space-between;
   gap: 2vh;
-  background: #f9813a;
+  background: ${(props) => props.boxColor && props.boxColor};
   border-radius: 25px;
 `;
 
@@ -33,9 +33,9 @@ const AnnouncementText = styled.div`
   font-size: 18px;
 `;
 
-const Announcement = ({ title, text, bannerSrc, bannerAlt }) => {
+const Announcement = ({ title, text, bannerSrc, bannerAlt, boxColor }) => {
   return (
-    <AnnouncementContainer>
+    <AnnouncementContainer boxColor={boxColor}>
       <AnnouncementBanner src={bannerSrc} alt={bannerAlt} />
       <AnnouncementContent>
         <AnnouncementTitle>{title}</AnnouncementTitle>

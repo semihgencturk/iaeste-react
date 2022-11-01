@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import RotatableImage from "../ui/RotatableImage";
 // import HomeBundlePhoto from "../assets/HomeBundlePhoto.jpg";
@@ -65,6 +66,11 @@ const HomeBundleImagesRow = styled.div`
   gap: 5%;
 `;
 
+const linkStyle = {
+  textDecoration: "none",
+  color: "#be3030",
+};
+
 const HomeBundle = () => {
   return (
     <HomeBundleContainer>
@@ -74,8 +80,16 @@ const HomeBundle = () => {
           ULUSLARARASI STAJ DEĞİŞİM KULÜBÜ
         </HomeBundleSubTitle>
         <HomeBundleButtons>
-          <InternalButton>ŞİRKETLER İÇİN</InternalButton>
-          <InternalButton>ÖĞRENCİLER İÇİN</InternalButton>
+          <InternalButton>
+            <Link to="/Sirketler-Icin-Iaeste" style={linkStyle}>
+              ŞİRKETLER İÇİN
+            </Link>
+          </InternalButton>
+          <InternalButton>
+            <Link to="/Ogrenciler-Icin-Iaeste" style={linkStyle}>
+              ÖĞRENCİLER İÇİN
+            </Link>
+          </InternalButton>
         </HomeBundleButtons>
       </HomeBundleContents>
       <HomeBundleImages>

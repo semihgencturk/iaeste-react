@@ -30,6 +30,7 @@ const Announcements = () => {
             text={item.text}
             bannerSrc={item.bannerSrc}
             bannerAlt={item.bannerAlt}
+            boxColor={index % 2 == 0 ? "#f9813a" : "#753188"}
           />
         ))}
       </AnnouncementsContainer>

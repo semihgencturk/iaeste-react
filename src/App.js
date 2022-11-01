@@ -5,6 +5,9 @@ import AboutUs from "./pages/AboutUs";
 import BoardMembers from "./pages/BoardMembers";
 import Announcements from "./pages/Announcements";
 import ReachUs from "./pages/ReachUs";
+import ForCompanies from "./pages/ForCompanies";
+import ForStudents from "./pages/ForStudents";
+import CommonQuestions from "./pages/CommonQuestions";
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
         <Route path="/Yonetim-Kurulumuz" element={<BoardMembers />} />
         <Route path="/Duyurular" element={<Announcements />} />
         <Route path="/Iletisim" element={<ReachUs />} />
+        <Route path="/Sirketler-Icin-Iaeste" element={<ForCompanies />} />
+        <Route path="/Ogrenciler-Icin-Iaeste" element={<ForStudents />} />
+        <Route path="/Sikca-Sorulan-Sorular" element={<CommonQuestions />} />
       </Routes>
     </BrowserRouter>
   );
