@@ -6,8 +6,7 @@ import InternalButton from "../ui/InternalButton";
 
 const ReachUsContainer = styled.div`
   width: 100%;
-  height: 87vh;
-  padding-top: 5vh;
+  height: 100vh;
   background: #1a1c20;
   display: flex;
   flex-direction: column;

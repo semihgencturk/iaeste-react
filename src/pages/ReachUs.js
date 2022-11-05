@@ -9,7 +9,7 @@ const ReachUs = () => {
     <>
       <Navbar />
       {/* <PageTitle title="BİZE ULAŞIN" /> */}
-      <ReachUsInfo />
+      <ReachUsInfo forCompaniesPage={true} />
     </>
   );
 };

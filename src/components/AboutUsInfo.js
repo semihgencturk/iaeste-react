@@ -22,7 +22,6 @@ const AboutUsContainer = styled.div`
 
 const AboutUsIntro = styled.div`
   width: 500px;
-  height: auto;
   background: #f9813a;
   border: solid 2px #f9813a;
   border-radius: 10px;

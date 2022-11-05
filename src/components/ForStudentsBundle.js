@@ -60,7 +60,7 @@ const ForCompaniesBundle = () => {
           ULUSLARARASI STAJ DEĞİŞİM KULÜBÜ
         </ForCompaniesBundleSubTitle>
         <ForCompaniesBundleText>
-          ``Bu sene <span>Stajyerini IAESTE </span> ile bul``
+          ``Bu sene <span> IAESTE ile Yurtdışı Stajı </span> ile bul``
         </ForCompaniesBundleText>
         <ForCompaniesBundleButton>
           IAESTE Nedir?<span className="fa-solid fa-circle-arrow-down"></span>
