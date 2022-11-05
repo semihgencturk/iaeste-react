@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
-import test from "../assets/test.png";
+import YtuLogo from "../assets/YtuLogo.png";
+import IaesteWhiteLogo from "../assets/IaesteWhiteLogo.png";
 import NonCollapsableNavbarItem from "../ui/NonCollapsableNavbarItem";
 
 const NavbarContainer = styled.div`
@@ -23,7 +25,11 @@ const Navbar = () => {
   return (
     <>
       <NavbarContainer>
-        <NavbarLogo src={test} alt="ss" />
+        <Link to="/">
+          {" "}
+          <NavbarLogo src={IaesteWhiteLogo} alt="iaeste-logo" />
+        </Link>
+
         <NonCollapsableNavbarItem title="Hakkımızda" linkTo="/Hakkimizda" />
         <NonCollapsableNavbarItem
           title="Yönetim Kurulumuz"
@@ -35,7 +41,9 @@ const Navbar = () => {
           title="S.S.S"
           linkTo="/Sikca-Sorulan-Sorular"
         />
-        <NavbarLogo src={test} alt="ss" />
+        <a href="https://yildiz.edu.tr/" target="_blank" rel="noreferrer">
+          <NavbarLogo src={YtuLogo} alt="yildiz-teknik-universitesi-logo" />
+        </a>
       </NavbarContainer>
     </>
   );

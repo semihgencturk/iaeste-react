@@ -7,7 +7,8 @@ import ScrollButton from "../ui/ScrollButton";
 
 const AboutUsContainer = styled.div`
   width: 100%;
-  height: 92vh;
+  height: ${(props) => props.height && props.height};
+  margin: 0;
   background: #1a1c20;
   display: flex;
   flex-direction: column;
@@ -56,10 +57,12 @@ const AboutUsPart2 = styled.div`
   }
 `;
 
-const AboutUsInfo = ({ forCompaniesPage }) => {
+const AboutUsInfo = ({ forCompaniesPage, forStudentsPage }) => {
   return (
     <>
-      <AboutUsContainer>
+      <AboutUsContainer
+        height={forCompaniesPage || forStudentsPage ? "100vh" : "92vh"}
+      >
         <AboutUsPart1>
           <RotatableImage
             rotate={false}
@@ -125,8 +128,10 @@ const AboutUsInfo = ({ forCompaniesPage }) => {
         {forCompaniesPage ? (
           <ScrollButton text="Şirketler İçin IAESTE" />
         ) : null}
+        {forStudentsPage ? (
+          <ScrollButton text="Öğrenciler İçin IAESTE" />
+        ) : null}
       </AboutUsContainer>
-      ;
     </>
   );
 };

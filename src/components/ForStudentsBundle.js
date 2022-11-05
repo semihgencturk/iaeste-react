@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import IaesteLogo from "../assets/IaesteLogo.png";
 import Logo from "../ui/Logo";
+import ScrollButton from "../ui/ScrollButton";
 
 const ForCompaniesBundleContainer = styled.div`
   background: #1a1c20;
@@ -34,22 +35,6 @@ const ForCompaniesBundleSubTitle = styled.div`
   font-size: 40px;
 `;
 
-const ForCompaniesBundleButton = styled.button`
-  background: #065471;
-  padding: 2vh;
-  border: none;
-  border-radius: 25px;
-  color: white;
-
-  span {
-    margin-left: 2vh;
-  }
-
-  :hover {
-    cursor: pointer;
-  }
-`;
-
 const ForCompaniesBundle = () => {
   return (
     <>
@@ -60,11 +45,9 @@ const ForCompaniesBundle = () => {
           ULUSLARARASI STAJ DEĞİŞİM KULÜBÜ
         </ForCompaniesBundleSubTitle>
         <ForCompaniesBundleText>
-          ``Bu sene <span> IAESTE ile Yurtdışı Stajı </span> ile bul``
+          ``Bu sene <span> IAESTE ile Yurtdışı Stajı </span> bul``
         </ForCompaniesBundleText>
-        <ForCompaniesBundleButton>
-          IAESTE Nedir?<span className="fa-solid fa-circle-arrow-down"></span>
-        </ForCompaniesBundleButton>
+        <ScrollButton text="IAESTE Nedir?" />
       </ForCompaniesBundleContainer>
     </>
   );

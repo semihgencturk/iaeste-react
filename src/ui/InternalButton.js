@@ -6,7 +6,7 @@ const InternalButtonContainer = styled.button`
   font-size: 18px;
   border: none;
   border-radius: 25px;
-  background: #3e6d9c;
+  background: rgb(11, 61, 89);
   color: white;
   padding: 2vh;
   white-space: nowrap;

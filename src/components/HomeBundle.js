@@ -37,7 +37,7 @@ const HomeBundleButtons = styled.div`
 `;
 
 const InternalButton = styled.button`
-  width: 30%;
+  width: 100%;
   height: 10vh;
   font-size: 20px;
   font-weight: 900;
@@ -80,16 +80,12 @@ const HomeBundle = () => {
           ULUSLARARASI STAJ DEĞİŞİM KULÜBÜ
         </HomeBundleSubTitle>
         <HomeBundleButtons>
-          <InternalButton>
-            <Link to="/Sirketler-Icin-Iaeste" style={linkStyle}>
-              ŞİRKETLER İÇİN
-            </Link>
-          </InternalButton>
-          <InternalButton>
-            <Link to="/Ogrenciler-Icin-Iaeste" style={linkStyle}>
-              ÖĞRENCİLER İÇİN
-            </Link>
-          </InternalButton>
+          <Link to="/Sirketler-Icin-Iaeste" style={linkStyle}>
+            <InternalButton>ŞİRKETLER İÇİN</InternalButton>
+          </Link>
+          <Link to="/Ogrenciler-Icin-Iaeste" style={linkStyle}>
+            <InternalButton>ÖĞRENCİLER İÇİN</InternalButton>
+          </Link>
         </HomeBundleButtons>
       </HomeBundleContents>
       <HomeBundleImages>

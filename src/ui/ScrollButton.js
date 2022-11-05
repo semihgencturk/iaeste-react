@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ScrollButtonContainer = styled.button`
-  background: #065471;
+  background: rgb(11, 61, 89);
   padding: 2vh;
   border: none;
   border-radius: 25px;
