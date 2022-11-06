@@ -1,5 +1,6 @@
 {
-  "name": "mint-website",
+  "name": "iaeste-website",
+  "homepage": "http://iaesteyildiz.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
