@@ -6,12 +6,21 @@ const BoardMemberCardContainer = styled.div`
   height: 300px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    width: 150px;
+    height: 150px;
+  }
 `;
 
 const BoardMemberCardPart1 = styled.div`
   width: 100%;
   height: 200px;
   display: flex;
+
+  @media (max-width: 768px) {
+    height: 100px;
+  }
 `;
 
 const BoardMemberName = styled.div`
@@ -24,12 +33,21 @@ const BoardMemberName = styled.div`
   border-radius: 100px 0 0 0;
   width: 35px;
   font-weight: 900;
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
 `;
 
 const BoardMemberPhoto = styled.img`
   border-radius: 0 25px 0 0;
   width: 200px;
   height: 200px;
+
+  @media (max-width: 768px) {
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 const BoardMemberCardPart2 = styled.div`
@@ -44,6 +62,10 @@ const BoardMemberCardPart2 = styled.div`
     height: 35px;
     border-radius: 0 0 0 25px;
   }
+
+  @media (max-width: 768px) {
+    height: 50px;
+  }
 `;
 
 const BoardMemberTitle = styled.div`
@@ -54,6 +76,11 @@ const BoardMemberTitle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100px;
+    font-size: 12px;
+  }
 `;
 
 const LinkedinIcon = styled.div`

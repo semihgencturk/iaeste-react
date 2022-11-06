@@ -22,6 +22,10 @@ const ApplicationStepCardBox = styled.div`
     margin-right: 2vh;
     color: black;
   }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 const ApplicationStepCardAnswer = styled.div`
@@ -29,6 +33,10 @@ const ApplicationStepCardAnswer = styled.div`
 
   ul {
     margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
   }
 `;
 

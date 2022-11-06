@@ -13,6 +13,12 @@ const ForCompaniesBundleContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 5vh;
+
+  @media (max-width: 768px) {
+    min-height: 92vh;
+    height: auto;
+    padding-bottom: 5vh;
+  }
 `;
 
 const ForCompaniesBundleText = styled.div`
@@ -25,14 +31,26 @@ const ForCompaniesBundleText = styled.div`
   span {
     color: #f9813a;
   }
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 const ForCompaniesBundleTitle = styled.div`
   font-size: 80px;
   color: #f9813a;
+
+  @media (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
 
 const ForCompaniesBundleSubTitle = styled.div`
   font-size: 40px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const ForCompaniesBundle = () => {

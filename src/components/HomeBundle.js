@@ -11,6 +11,11 @@ const HomeBundleContainer = styled.div`
   height 92vh;
   background: #1A1C20;
   display: flex;
+
+  @media (max-width: 768px) {
+    min-height:92vh;
+    height: auto;
+  }
 `;
 
 const HomeBundleContents = styled.div`
@@ -20,20 +25,37 @@ const HomeBundleContents = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 5vh;
+
+  @media (max-width: 768px) {
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+  }
 `;
 
 const HomeBundleTitle = styled.div`
   font-size: 80px;
   color: #f9813a;
+  @media (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
 
 const HomeBundleSubTitle = styled.div`
   font-size: 40px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const HomeBundleButtons = styled.div`
   display: flex;
   gap: 5%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 5vh;
+  }
 `;
 
 const InternalButton = styled.button`
@@ -49,6 +71,11 @@ const InternalButton = styled.button`
     box-shadow: none;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    white-space: no-wrap;
+    font-size: 18px;
+  }
 `;
 
 const HomeBundleImages = styled.div`
@@ -59,6 +86,10 @@ const HomeBundleImages = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 5%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const HomeBundleImagesRow = styled.div`

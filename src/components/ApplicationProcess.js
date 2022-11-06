@@ -14,8 +14,10 @@ const ApplicationProcessContainer = styled.div`
   gap: 5vh;
   padding-top: 5vh;
 
-  @media (max-width: 500px) {
+  @media (max-width: 768px) {
     height: auto;
+    padding: 5vh 5% 5vh 5%;
+    width: 90%;
   }
 `;
 
@@ -24,6 +26,10 @@ const ApplicationProcessHeader = styled.div`
 
   span {
     color: #f9813a;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 40px;
   }
 `;
 

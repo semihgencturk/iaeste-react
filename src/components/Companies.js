@@ -12,6 +12,14 @@ const CompaniesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    min-height: 95vh;
+    height: auto;
+    gap: 5vh;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+  }
 `;
 
 const CompaniesRow = styled.div`

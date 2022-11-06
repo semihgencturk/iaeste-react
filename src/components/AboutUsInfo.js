@@ -16,8 +16,10 @@ const AboutUsContainer = styled.div`
   align-items: center;
   gap: 5vh;
 
-  @media (max-width: 500px) {
+  @media (max-width: 768px) {
     height: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
 `;
 
@@ -37,8 +39,13 @@ const AboutUsIntro = styled.div`
     text-decoration: underline;
   }
 
-  @media (max-width: 500px) {
-    width: 300px;
+  @media (max-width: 768px) {
+    width: 290px;
+    font-size: 14px;
+
+    span {
+      font-size: 20px;
+    }
   }
 `;
 
@@ -52,7 +59,7 @@ const AboutUsPart2 = styled.div`
   display: flex;
   gap: 5vh;
 
-  @media (max-width: 500px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 `;

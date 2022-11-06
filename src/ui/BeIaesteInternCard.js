@@ -13,15 +13,30 @@ const BeIaesteInternCardContainer = styled.div`
   padding: 15px;
   margin: 10px 0 0 0;
   border: solid grey 1px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    min-height: 10vh;
+    height: auto;
+    padding: 2vh 0 0 0;
+  }
 `;
 
 const BeIaesteInternCardLogo = styled.span`
   font-size: 40px;
   color: #f9813a;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 const BeIaesteInternCardText = styled.p`
   font-size: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const BeIaesteInternCard = ({ logo, text }) => {

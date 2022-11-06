@@ -21,10 +21,18 @@ const QuestionBox = styled.div`
   span {
     margin-right: 2vh;
   }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 const QuestionAnswer = styled.div`
   font-size: 18px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 const QuestionContainer = ({ question, answer, boxColor, textAlign }) => {
@@ -41,7 +49,11 @@ const QuestionContainer = ({ question, answer, boxColor, textAlign }) => {
       onClick={handleShowAnswer}
     >
       <QuestionBox>
-        <span className="fa-solid fa-arrow-down"></span>
+        {!showAnswer ? (
+          <span className="fa-solid fa-arrow-down"></span>
+        ) : (
+          <span className="fa-solid fa-arrow-up"></span>
+        )}
         {question}
       </QuestionBox>
       {showAnswer ? <QuestionAnswer>{answer}</QuestionAnswer> : null}

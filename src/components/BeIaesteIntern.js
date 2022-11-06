@@ -14,6 +14,11 @@ const BeIaesteInternContainer = styled.div`
   gap: 5vh;
   padding-top: 5vh;
   background: #1a1c20;
+
+  @media (max-width: 768px) {
+    padding-bottom: 5vh;
+    min-height: 90vh;
+  }
 `;
 
 const BeIaesteInternHeader = styled.div`
@@ -22,6 +27,10 @@ const BeIaesteInternHeader = styled.div`
   span {
     color: #f9813a;
   }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 const BeIaesteInternContent = styled.div`
@@ -29,6 +38,11 @@ const BeIaesteInternContent = styled.div`
   display: flex;
   justify-content: center;
   gap: 5%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 `;
 
 const BeIaesteIntern = () => {

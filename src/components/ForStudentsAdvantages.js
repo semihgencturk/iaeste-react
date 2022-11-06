@@ -11,6 +11,12 @@ const ForCompaniesAdvantagesContainer = styled.div`
   align-items: center;
   background: #1a1c20;
   padding: 25px;
+
+  @media (max-width: 768px) {
+    min-height: 92vh;
+    height: auto;
+    gap: 5vh;
+  }
 `;
 
 const ForCompaniesAdvantagesHeader = styled.h2`
@@ -20,6 +26,10 @@ const ForCompaniesAdvantagesHeader = styled.h2`
   span {
     color: #f9813a;
   }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 const ForCompaniesAdvantagesCardBox = styled.div`
@@ -28,6 +38,10 @@ const ForCompaniesAdvantagesCardBox = styled.div`
   justify-content: center;
   flex-flow: row wrap;
   gap: 5%;
+
+  @media (max-width: 768px) {
+    width: 95%;
+  }
 `;
 
 const ForStudentsAdvantages = () => {

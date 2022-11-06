@@ -13,16 +13,30 @@ const ForCompaniesAdvantagesCardContainer = styled.div`
   padding: 15px;
   margin: 10px 0 0 0;
   border: solid grey 1px;
+
+  @media (max-width: 768px) {
+    min-height: 15vh;
+    height: auto;
+    width: 100%;
+  }
 `;
 
 const ForCompaniesAdvantagesCardLogo = styled.span`
   font-size: 40px;
   color: #f9813a;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 const ForCompaniesAdvantagesCardText = styled.p`
   font-size: 16px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const ForCompaniesAdvantagesCard = ({ logo, text }) => {
