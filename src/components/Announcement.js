@@ -7,6 +7,7 @@ const AnnouncementContainer = styled.div`
   height: auto;
   display: flex;
   justify-content: space-between;
+  padding-right: 2%;
   gap: 2vh;
   background: ${(props) => props.boxColor && props.boxColor};
   border-radius: 25px;
@@ -37,6 +38,8 @@ const AnnouncementContent = styled.div`
 
 const AnnouncementTitle = styled.div`
   font-size: 24px;
+  color: black;
+  text-decoration: underline;
 
   @media (max-width: 768px) {
     font-size: 18px;

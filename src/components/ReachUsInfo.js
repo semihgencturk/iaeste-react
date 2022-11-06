@@ -36,7 +36,12 @@ const ReachUsInfo = ({ forCompaniesPage }) => {
   return (
     <ReachUsContainer>
       {forCompaniesPage ? <ReachUsHeader>Bize Ulaşın</ReachUsHeader> : null}
-      <SocialMediaIcons />
+      <SocialMediaIcons
+        instagram="https://www.instagram.com/iaesteyildiz/?hl=en"
+        twitter="https://twitter.com/iaesteyildiz"
+        youtube="https://www.youtube.com/channel/UCOuUr1ODtT5GhuRb3S31oAw?app=desktop"
+        linkedin="https://www.linkedin.com/company/iaeste-yildiz/about/"
+      />
       <Mail>iaeste.yildiztu@gmail.com</Mail>
       <InternalButton
         linkTo="/Yonetim-Kurulumuz"

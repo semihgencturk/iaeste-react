@@ -51,17 +51,29 @@ const ForStudentsAdvantages = () => {
         <span>Öğrenciler</span> İçin IAESTE
       </ForCompaniesAdvantagesHeader>
       <ForCompaniesAdvantagesCardBox>
-        <ForCompaniesAdvantagesCard logo="fa-solid fa-coins" text="Lorem" />
-        <ForCompaniesAdvantagesCard logo="fa-solid fa-language" text="Lorem" />
-        <ForCompaniesAdvantagesCard logo="fa-solid fa-book" text="Lorem" />
-        <ForCompaniesAdvantagesCard logo="fa-solid fa-globe" text="Lorem" />
         <ForCompaniesAdvantagesCard
-          logo="fa-solid fa-network-wired"
-          text="Lorem"
+          logo="fa-solid fa-coins"
+          text="IAESTE sayesinde kaliteli bir staj yapabilirsen."
         />
         <ForCompaniesAdvantagesCard
-          logo="fa-solid fa-graduation-cap"
-          text="Lorem"
+          logo="fa-solid fa-globe"
+          text="Hayalini kurduğun ülkeleri ziyaret edebilir. Oradaki yaşamı tecrübe edebilirsin."
+        />
+        <ForCompaniesAdvantagesCard
+          logo="fa-solid fa-user-group"
+          text="Farklı kültürler tanıyıp, uluslararası arkadaşlıklar edinebilirsin."
+        />
+        <ForCompaniesAdvantagesCard
+          logo="fa-solid fa-book"
+          text="CV hazırlama, motivasyon mektubu yazma gibi konularda destek alabilirsin."
+        />
+        <ForCompaniesAdvantagesCard
+          logo="fa-solid fa-network-wired"
+          text="Türkiye'deki şirketlerle görüşerek hem bağlantı ağını geliştirip hem de iletişim becerini güçlendirebilirsin."
+        />
+        <ForCompaniesAdvantagesCard
+          logo="fa-solid fa-language"
+          text="Hem speaking club'lar hem de uluslararsı etkinlikler ingilizceni geliştirebilirsin."
         />
       </ForCompaniesAdvantagesCardBox>
       <ScrollButton text="Partnerlerimiz" />

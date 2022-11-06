@@ -16,14 +16,32 @@ export const homeContent = {
 
 export const announcementsContent = [
   {
-    title: "dfdfd",
-    text: "sdsds",
+    title: "Speaking Club",
+    text: "``Sinava az kaldı, pratiğe ihtiyacım var`` diyorsan bu etkinlik tam sana göre. 8 Kasım Salı günü yapılacak olan Speaking Club etkinliğimize bütün üyelerimizi bekliyoruz.",
     bannerSrc: `${HomeBackground2}`,
     bannerAlt: "sdsd",
   },
   {
-    title: "dfdfd",
-    text: "sdsds",
+    title: "Haftalık kurumsal toplantılarımız başlıyor!",
+    text: "Davutpaşa Kampüsü EEF D-010 31 Ekim itibarıyla her Pazartesi 18.00'de, Beşiktaş Kampüsü Mimarlık D-404 3 Kasım itibarıyla her Perşembe-18.00'de olacak şekilde kurumsal toplantılarımız başlaycaktır.  Toplantılarımız dönem boyunca her pazartesi ve perşembe yapılacaktır. Size uygun olan bir günde katılım sağlamanız yeterlidir. Toplantılara katılımınızın ve kurumsal süreçteki aktifliğinizin dönem sonunda hesaplanacak olan aktiflik puanınıza etki edeceğini unutmayın! Kurumsal toplantılarımıza bütün üyelerimizi bekliyoruz! ",
+    bannerSrc: `${HomeBackground2}`,
+    bannerAlt: "sdsd",
+  },
+  {
+    title: "Yabancı Dil Sınavları Başvuruları",
+    text: "Eğer Lisans 2.sınıf ve üstünde eğitim görüyorsanız ve not ortalamanız 2.00'dan yüksekse IAESTE Yabanacı Dil Sınavları'na başvuralabilirsiniz. Dikkat edilmesi gereken hususlar ve nasıl başvuru yapacağınız hakkında lütfen mentörünüzle iletişime geçiniz.",
+    bannerSrc: `${HomeBackground2}`,
+    bannerAlt: "sdsd",
+  },
+  {
+    title: "İlk Alumni Etkinliğimiz İle Karşınızdayız!",
+    text: "Etkinliğimiz 1 Kasım saat 18'de Davutapaşa Kampüsü EEF D-010'da gerçekleşecektir. Tecrübeli arkadaşlarımızın anılarını paylaşarak değerli bilgiler verdikleri bu etkinliğimize bütün üyelerimizin katılımını bekliyoruz.",
+    bannerSrc: `${HomeBackground2}`,
+    bannerAlt: "sdsd",
+  },
+  {
+    title: "Tutulmaya Hazır Mısın?",
+    text: "Aramıza hoşgeldin IAESTE'li. Hem eğlenip hem kaynaşacağımız ilk temalı partimiz olan Eclipse'te sen de yerini ayırt. 4 Kasım Cuma günü 20:00'de görüşmek üzere. Yer Arsen Lüpen Taksim.",
     bannerSrc: `${HomeBackground2}`,
     bannerAlt: "sdsd",
   },
