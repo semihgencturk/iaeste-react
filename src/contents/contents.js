@@ -1,5 +1,30 @@
 import HomeBackground2 from "../assets/HomeBackground2.jpg";
 import HomeBundlePhoto from "../assets/HomeBundlePhoto.jpg";
+import IaestePhoto25 from "../assets/IaestePhotos/IaestePhoto25.jpg";
+import IaestePhoto24 from "../assets/IaestePhotos/IaestePhoto24.jpg";
+import IaestePhoto34 from "../assets/IaestePhotos/IaestePhoto34.png";
+import IaestePhoto22 from "../assets/IaestePhotos/IaestePhoto22.jpg";
+import IaestePhoto21 from "../assets/IaestePhotos/IaestePhoto21.png";
+import IaestePhoto1 from "../assets/IaestePhotos/IaestePhoto1.jpg";
+import IaestePhoto2 from "../assets/IaestePhotos/IaestePhoto2.jpg";
+import IaestePhoto3 from "../assets/IaestePhotos/IaestePhoto3.jpg";
+import IaestePhoto5 from "../assets/IaestePhotos/IaestePhoto5.jpg";
+import IaestePhoto6 from "../assets/IaestePhotos/IaestePhoto6.png";
+import IaestePhoto7 from "../assets/IaestePhotos/IaestePhoto7.jpg";
+import IaestePhoto10 from "../assets/IaestePhotos/IaestePhoto10.jpg";
+import IaestePhoto11 from "../assets/IaestePhotos/IaestePhoto11.jpg";
+import IaestePhoto12 from "../assets/IaestePhotos/IaestePhoto12.jpeg";
+import IaestePhoto14 from "../assets/IaestePhotos/IaestePhoto14.jpg";
+import IaestePhoto17 from "../assets/IaestePhotos/IaestePhoto17.jpg";
+import IaestePhoto18 from "../assets/IaestePhotos/IaestePhoto18.jpg";
+import IaestePhoto19 from "../assets/IaestePhotos/IaestePhoto19.jpg";
+import IaestePhoto26 from "../assets/IaestePhotos/IaestePhoto26.jpg";
+import IaestePhoto28 from "../assets/IaestePhotos/IaestePhoto28.jpg";
+import IaestePhoto30 from "../assets/IaestePhotos/IaestePhoto30.jpg";
+import IaestePhoto31 from "../assets/IaestePhotos/IaestePhoto31.jpg";
+import IaestePhoto35 from "../assets/IaestePhotos/IaestePhoto35.jpeg";
+import IaestePhoto29 from "../assets/IaestePhotos/IaestePhoto29.png";
+import IaestePhoto33 from "../assets/IaestePhotos/IaestePhoto33.jpg";
 
 export const homeContent = {
   homeBundle: {
@@ -18,32 +43,32 @@ export const announcementsContent = [
   {
     title: "Speaking Club",
     text: "``Sinava az kaldı, pratiğe ihtiyacım var`` diyorsan bu etkinlik tam sana göre. 8 Kasım Salı günü yapılacak olan Speaking Club etkinliğimize bütün üyelerimizi bekliyoruz.",
-    bannerSrc: `${HomeBackground2}`,
-    bannerAlt: "sdsd",
+    bannerSrc: `${IaestePhoto25}`,
+    bannerAlt: "iaeste-photo",
   },
   {
     title: "Haftalık kurumsal toplantılarımız başlıyor!",
     text: "Davutpaşa Kampüsü EEF D-010 31 Ekim itibarıyla her Pazartesi 18.00'de, Beşiktaş Kampüsü Mimarlık D-404 3 Kasım itibarıyla her Perşembe-18.00'de olacak şekilde kurumsal toplantılarımız başlaycaktır.  Toplantılarımız dönem boyunca her pazartesi ve perşembe yapılacaktır. Size uygun olan bir günde katılım sağlamanız yeterlidir. Toplantılara katılımınızın ve kurumsal süreçteki aktifliğinizin dönem sonunda hesaplanacak olan aktiflik puanınıza etki edeceğini unutmayın! Kurumsal toplantılarımıza bütün üyelerimizi bekliyoruz! ",
-    bannerSrc: `${HomeBackground2}`,
-    bannerAlt: "sdsd",
+    bannerSrc: `${IaestePhoto24}`,
+    bannerAlt: "iaeste-photo",
   },
   {
     title: "Yabancı Dil Sınavları Başvuruları",
     text: "Eğer Lisans 2.sınıf ve üstünde eğitim görüyorsanız ve not ortalamanız 2.00'dan yüksekse IAESTE Yabanacı Dil Sınavları'na başvuralabilirsiniz. Dikkat edilmesi gereken hususlar ve nasıl başvuru yapacağınız hakkında lütfen mentörünüzle iletişime geçiniz.",
-    bannerSrc: `${HomeBackground2}`,
-    bannerAlt: "sdsd",
+    bannerSrc: `${IaestePhoto34}`,
+    bannerAlt: "iaeste-photo",
   },
   {
     title: "İlk Alumni Etkinliğimiz İle Karşınızdayız!",
     text: "Etkinliğimiz 1 Kasım saat 18'de Davutapaşa Kampüsü EEF D-010'da gerçekleşecektir. Tecrübeli arkadaşlarımızın anılarını paylaşarak değerli bilgiler verdikleri bu etkinliğimize bütün üyelerimizin katılımını bekliyoruz.",
-    bannerSrc: `${HomeBackground2}`,
-    bannerAlt: "sdsd",
+    bannerSrc: `${IaestePhoto21}`,
+    bannerAlt: "iaeste-photo",
   },
   {
     title: "Tutulmaya Hazır Mısın?",
     text: "Aramıza hoşgeldin IAESTE'li. Hem eğlenip hem kaynaşacağımız ilk temalı partimiz olan Eclipse'te sen de yerini ayırt. 4 Kasım Cuma günü 20:00'de görüşmek üzere. Yer Arsen Lüpen Taksim.",
-    bannerSrc: `${HomeBackground2}`,
-    bannerAlt: "sdsd",
+    bannerSrc: `${IaestePhoto22}`,
+    bannerAlt: "iaeste-photo",
   },
 ];
 
@@ -133,16 +158,16 @@ export const eventsContent = [
     title: "Summer Reception",
     photos: [
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto2}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto11}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto10}`,
+        alt: "iaeste-photo",
       },
     ],
   },
@@ -150,16 +175,16 @@ export const eventsContent = [
     title: "Central European Convention (CEC)",
     photos: [
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto1}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto35}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto34}`,
+        alt: "iaeste-photo",
       },
     ],
   },
@@ -167,16 +192,16 @@ export const eventsContent = [
     title: "Jump",
     photos: [
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto3}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto17}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto18}`,
+        alt: "iaeste-photo",
       },
     ],
   },
@@ -184,16 +209,16 @@ export const eventsContent = [
     title: "LCs of Europe Are Partners (LEAP)",
     photos: [
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto7}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto6}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto33}`,
+        alt: "iaeste-photo",
       },
     ],
   },
@@ -201,16 +226,16 @@ export const eventsContent = [
     title: "Twinning",
     photos: [
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto31}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto14}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto5}`,
+        alt: "iaeste-photo",
       },
     ],
   },
@@ -218,16 +243,16 @@ export const eventsContent = [
     title: "Ulusal Etkinlikler",
     photos: [
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto12}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto19}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto26}`,
+        alt: "iaeste-photo",
       },
     ],
   },
@@ -235,16 +260,16 @@ export const eventsContent = [
     title: "Komite Içi Etkinlikler",
     photos: [
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto28}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto30}`,
+        alt: "iaeste-photo",
       },
       {
-        src: `${HomeBundlePhoto}`,
-        alt: "https://www.freepik.com/free-photo/world-map-global-international-globalisation-concept_16445273.htm#&position=0&from_view=user",
+        src: `${IaestePhoto29}`,
+        alt: "iaeste-photo",
       },
     ],
   },

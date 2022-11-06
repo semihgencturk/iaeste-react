@@ -50,6 +50,8 @@ const EventPhotos = styled.div`
 
 const EventPhoto = styled.img`
   width: 25%;
+  height: 20vh;
+  object-fit: cover;
 `;
 
 const EventCard = ({ event }) => {

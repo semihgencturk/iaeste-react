@@ -20,7 +20,8 @@ const AnnouncementContainer = styled.div`
 
 const AnnouncementBanner = styled.img`
   width: 25%;
-  height: auto;
+  height: 25vh;
+  object-fit: cover;
   border-radius: 25px 0 0 25px;
 
   @media (max-width: 768px) {
