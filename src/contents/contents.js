@@ -49,24 +49,18 @@ export const announcementsContent = [
 
 export const commonQuestionsContent = [
   {
-    question: "Lorem ipsum dolor sit amet, consectetur ad",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In justo lectus, cursus nec auctor ut, vestibulum ut eros. Aenean blandit id ante a tempus. Nulla nec ipsum sit amet erat maximus efficitur in eu libero. Cras molestie quis leo lacinia ornare. Maecenas quis dapibus velit. Cras eget finibus velit, a feugiat enim. Nam auctor pretium massa quis viverra. Duis luctus augue ac tellus posuere, vel tincidunt erat eleifend.",
+    question: "Üye alımı ne zaman yapılmaktadır?",
+    answer: "Her yıl ders döneminin ilk 2 haftasında üye alımları yapılıyor.",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipat eleifend.",
+    question: "Kimler başvurabilir?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In justo lectus, cursus nec auctor ut, vestibulum ut eros. Aenean blandit id ante a tempus. Nulla nec ipsum sit amet erat maximus efficitur in eu libero. Cras molestie quis leo lacinia ornare. Maecenas quis dapibus velit. Cras eget finibus velit, a feugiat enim. Nam auctor pretium massa quis viverra. Duis luctus augue ac tellus posuere, vel tincidunt erat eleifend.",
+      "Üniversite öğrencisi olan herkes kendi Lokal Komitesi aracılığıyla katılabilir.",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur ad",
+    question: "2. sınıflar stajdan yararlanabiliyor mu?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In justo lectus, cursus nec auctor ut, vestibulum ut eros. Aenean blandit id ante a tempus. Nulla nec ipsum sit amet erat maximus efficitur in eu libero. Cras molestie quis leo lacinia ornare. Maecenas quis dapibus velit. Cras eget finibus velit, a feugiat enim. Nam auctor pretium massa quis viverra. Duis luctus augue ac tellus posuere, vel tincidunt erat eleifend.",
-  },
-  {
-    question: "Lorem ipsum dolor sit amet, consectetur adipat eleifend.",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In justo lectus, cursus nec auctor ut, vestibulum ut eros. Aenean blandit id ante a tempus. Nulla nec ipsum sit amet erat maximus efficitur in eu libero. Cras molestie quis leo lacinia ornare. Maecenas quis dapibus velit. Cras eget finibus velit, a feugiat enim. Nam auctor pretium massa quis viverra. Duis luctus augue ac tellus posuere, vel tincidunt erat eleifend.",
+      "Genellikle öncelik 3. ve 4. sınıflara veriliyor. Ama 2. sınıflar da başvuru yapabilir.",
   },
 ];
 

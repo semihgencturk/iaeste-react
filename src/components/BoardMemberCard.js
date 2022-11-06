@@ -8,8 +8,8 @@ const BoardMemberCardContainer = styled.div`
   flex-direction: column;
 
   @media (max-width: 768px) {
-    width: 150px;
-    height: 150px;
+    width: 185px;
+    height: 185px;
   }
 `;
 
@@ -19,7 +19,7 @@ const BoardMemberCardPart1 = styled.div`
   display: flex;
 
   @media (max-width: 768px) {
-    height: 100px;
+    height: 150px;
   }
 `;
 
@@ -43,10 +43,11 @@ const BoardMemberPhoto = styled.img`
   border-radius: 0 25px 0 0;
   width: 200px;
   height: 200px;
+  object-fit: cover;
 
   @media (max-width: 768px) {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
 `;
 
@@ -64,7 +65,7 @@ const BoardMemberCardPart2 = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: 50px;
+    height: 35px;
   }
 `;
 
@@ -78,7 +79,7 @@ const BoardMemberTitle = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
-    width: 100px;
+    width: 150px;
     font-size: 12px;
   }
 `;
@@ -91,7 +92,7 @@ const LinkedinIcon = styled.div`
   align-items: center;
 `;
 
-const BoardMemberCard = ({ title, name, photo }) => {
+const BoardMemberCard = ({ title, name, photo, link }) => {
   return (
     <BoardMemberCardContainer>
       <BoardMemberCardPart1>
@@ -99,7 +100,7 @@ const BoardMemberCard = ({ title, name, photo }) => {
         <BoardMemberPhoto src={photo} alt="Yonetim-Kurulu-Uyesi-Resim" />
       </BoardMemberCardPart1>
       <BoardMemberCardPart2>
-        <a href="" target="_blank" rel="noreferrer">
+        <a href={link} target="_blank" rel="noreferrer">
           <LinkedinIcon
             className="fa-brands fa-linkedin"
             aria-hidden="true"
